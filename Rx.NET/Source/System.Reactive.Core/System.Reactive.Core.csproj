@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4E516F10-DA7A-4D43-963E-A93865ABEA5B}</ProjectGuid>
+    <ProjectGuid>{4E516F10-DA7A-4D43-963E-A93864ABEA5B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>System.Reactive</RootNamespace>
