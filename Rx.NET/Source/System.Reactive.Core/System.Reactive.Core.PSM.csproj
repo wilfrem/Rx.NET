@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{200052C4-1836-4985-9A86-BE86E4A02D08}</ProjectGuid>
+    <ProjectGuid>{27E9FD4C-D365-4A75-BD28-AD06943C349D}</ProjectGuid>
     <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>System.Reactive.Core</RootNamespace>
-    <AssemblyName>System.Reactive.Core</AssemblyName>
+    <RootNamespace>System.Reactive.Core.PSM</RootNamespace>
+    <AssemblyName>System.Reactive.Core.PSM</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -37,10 +37,6 @@
     <Reference Include="Sce.PlayStation.Core" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
-  <ItemGroup>
-  </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="InternalsVisibleTo.cs" />
@@ -124,7 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\System.Reactive.Interfaces\System.Reactive.Interfaces.PSM.csproj">
-      <Project>{200052C4-1836-4985-9A86-BE86E4A02D08}</Project>
+      <Project>{AF09DD5F-7EBA-4484-AA25-D92288D0E2C0}</Project>
       <Name>System.Reactive.Interfaces.PSM</Name>
     </ProjectReference>
   </ItemGroup>
